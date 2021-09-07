@@ -1,0 +1,202 @@
+
+*{
+margin:0;
+padding:0;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+    .wrapper {
+        width: 1140px;
+    }
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color:#D2531D;
+}
+
+nav p{
+    font-family: "East Sea Dokdo", cursive;
+    color:rgb(0, 0, 0);
+    font-size: 45px;
+    line-height: 80px;
+    float: left;
+    padding: 0px 20px; 
+}
+
+nav ul {
+    float: left; 
+}
+
+nav ul li {
+    float: left; 
+    list-style:none; 
+    position: relative;
+}
+
+nav ul li a{
+    display: block;
+    font-family: 'Lexend', sans-serif;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 36px  30px;
+    text-decoration: none;
+}
+
+nav ul li ul{
+    display: none;
+position: absolute;
+background-color: #D2531D;
+padding: 5px ;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul li {
+width: 140px;
+    }
+
+nav ul li ul li a{
+padding: 8px 14px;
+
+}
+
+nav ul li ul li a:hover{
+background-color: rgb(224, 170, 107);    
+    }
+
+/*what tagaini is */
+
+section h2 {
+    font-family: 'Knewave', cursive;
+    font-size: 100px;
+    color:black;
+    position: relative;
+    left: 100px;
+    top: 80px;
+    }
+    section h1 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 40px;
+        color:black;
+        position: relative;
+        left: 100px;
+        top: 100px;
+        }
+
+    p{
+        line-height: 2;
+        margin-bottom: 20px;
+
+    }
+
+    .about-section .section-content {
+    display:flex; 
+    align-items: center;
+    }
+
+    .about-section .section-content img {
+position:relative;
+left: 80px;
+bottom: 100px;
+
+    }
+
+    .description2 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 20px;
+        color:black;
+        margin-left: 40px;
+    }
+
+    .description3 {
+        font-family: 'Lexend', sans-serif;
+        font-size: 20px;
+        color:black;
+        margin-left: 40px;
+    }
+
+
+a.btn.black{
+    background-color: black;
+    color: white;
+    font-family: 'Knewave', cursive;
+    font-size: 40px;
+    border-radius: 24px;
+    padding: 14px 30px;
+    text-decoration: none;
+    position: relative;
+    left: 120px;
+    bottom: 130px;
+}
+
+    /*about us button*/
+    a.btn.white{
+        background-color: white;
+        color: black;
+        font-family: 'Knewave', cursive;
+        font-size: 100px;
+        border-radius: 20px;
+        padding: 13px 30px;
+        text-decoration: none;
+        position: relative;
+        left: 400px;
+        bottom: 400px;
+    }
+    
+     /*media*/
+     .projects-gallery{
+         display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:80px 18px;
+        padding-left: 140px;
+        padding-right: 86px;
+
+     }
+    
+     
+    }
+    
+    .footer { 
+        /* orange box */
+           background: url('orange.png');
+           background-position: bottom;
+           background-repeat: no-repeat;
+           background-size: 100%;
+           width: 100%;
+           position: center;
+        /* header Connect with Us */
+       
+       }
+       
+       .header-d { 
+           padding-top: 50pt;
+           padding-bottom: 50pt;
+           font-family: Knewave;
+           font-style: normal;
+           font-weight: normal;
+           font-size: 40px;
+           line-height: 109px;
+           text-align: center;
+           
+           color: #FFFFFF;
+       }
+       
+       .contact-info { 
+           font-family: 'Jost', sans-serif;
+           font-style: normal;
+           font-weight: 500;
+           font-size: 20px;
+           line-height: 58px;
+           text-align: center;
+           color: #FFFFFF;
+           padding-bottom: 20pt;
+       }

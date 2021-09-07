@@ -1,0 +1,173 @@
+:root {
+    --dark-color: #d2531d;
+    --light-color: #E5E5E5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+nav{
+    width: 100%;
+    height: 100px;
+    background-color:#D2531D;
+}
+
+nav p{
+    font-family: "East Sea Dokdo", cursive;
+    color:rgb(0, 0, 0);
+    font-size: 45px;
+    line-height: 80px;
+    float: left;
+    padding: 0px 20px; 
+}
+
+nav ul {
+    float: left; 
+}
+
+nav ul li {
+    float: left; 
+    list-style:none; 
+    position: relative;
+}
+
+nav ul li a{
+    display: block;
+    font-family: 'Lexend', sans-serif;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 36px  30px;
+    text-decoration: none;
+}
+
+nav ul li ul{
+    display: none;
+position: absolute;
+background-color: #D2531D;
+padding: 5px ;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul li {
+width: 140px;
+    }
+
+nav ul li ul li a{
+padding: 8px 14px;
+
+}
+
+nav ul li ul li a:hover{
+background-color: rgb(224, 170, 107);    
+    }
+
+
+
+
+
+body{
+    background-color: #E5E5E5;
+    font-family: "Jost";
+}
+
+.titles{
+    color:white;
+    font: "Jost"
+}
+
+.Music-Pictures {
+    margin: auto;
+
+}
+
+.Music{
+    color:black;
+    width: 399px;
+    height: 194px;
+    top: 40px;
+    left: 42px;
+    font: "East Sea Dokdo";
+    size: 122px;
+    line-height: 152.5px;
+    margin: 30px;
+}
+
+.Image-Container {
+    width: 368px;
+    height: 368px;
+    border-radius: 23px;
+}
+
+.Image-Container:hover .Joji{
+    opacity: 0.3;
+}
+
+.Image-Container:hover .middle {
+    opacity: 1;
+}
+
+.middle{
+    color:#E5E5E5;
+    height: 368px;
+    width: 368px;
+    transition: .5s ease;
+    opacity: 0;
+    left: 50%;
+    top: 150px;
+    text-align: center;
+    transform: translate(0%, -100%);
+}
+
+.Joji{
+    color:#E5E5E5;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 368px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 23px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.footer { 
+    /* orange box */
+       background: url('https://raw.githubusercontent.com/ellau1/tagaini-design/master/about-page/Rectangle36.png');
+       background-position: bottom;
+       background-repeat: no-repeat;
+       background-size: 100%;
+       width: 100%;
+       position: center;
+    /* header Connect with Us */
+   
+   }
+   
+   .header-d { 
+       padding-top: 50pt;
+       padding-bottom: 50pt;
+       font-family: Knewave;
+       font-style: normal;
+       font-weight: normal;
+       font-size: 40px;
+       line-height: 200px;
+       text-align: center;
+       
+       color: #FFFFFF;
+   }
+   
+   .contact-info { 
+       font-family: 'Jost', sans-serif;
+       font-style: normal;
+       font-weight: 500;
+       font-size: 20px;
+       line-height: 58px;
+       text-align: center;
+       color: #FFFFFF;
+       padding-bottom: 20pt;
+   }
