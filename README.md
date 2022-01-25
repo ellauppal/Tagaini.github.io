@@ -1,5 +1,5 @@
 # Tagaini.github.io
-Project won 3rd Place at TechNova - University of Waterloo's First Global Women+ in Tech Hackathon!
+Project won 3rd place at TechNova Hackathon - University of Waterloo's First Global Women+ in Tech Hackathon!
 
 Check out our devpost: devpost.com/software/tagaini 
 
